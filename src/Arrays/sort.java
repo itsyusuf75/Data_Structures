@@ -2,7 +2,7 @@ package Arrays;
 import java.util.Scanner;
 
 public class sort {
-    int[] arr;  // class level pe rakh rahe hain taaki baad mein use kar sakein
+    int[] arr; 
 
     void input() {
         Scanner sc = new Scanner(System.in);
@@ -14,8 +14,6 @@ public class sort {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        sc.close();  // optional, good practice
-
     }
      // boolean function to check if array is sorted or not.
     boolean sorted() {
